@@ -1,0 +1,8 @@
+Begin mrbayes;
+  Set autoclose=yes quitonerror=yes nowarnings=yes autoreplace=yes;
+  exe data.nex; [read data file in the same dir as this file]
+  Mcmcp nruns=4 nchains=4; [4*4=16 chains in total]
+  Mcmc ngen=10000000 stoprule=yes; [run at most 10M, stop earlier if possible]
+  Sump; [summarize parameters]
+  Sumt; [summarize trees]
+End;
