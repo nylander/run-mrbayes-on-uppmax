@@ -1,6 +1,6 @@
 # Run Parallel MrBayes on UPPMAX
 
-- Last modified: fre jan 15, 2021  02:24
+- Last modified: fre jan 15, 2021  02:28
 - Sign: JN
 
 ## Description
@@ -51,6 +51,7 @@ Important is to specify
 - Compute account number
 - Maximum time for run
 - Number of nodes to use (need to match the number of chains in `mb.nex`)
+- Path to run folder
 
 Example file: [mb.slurm.sh](mb.slurm.sh)
 
