@@ -1,6 +1,6 @@
 # Run Parallel MrBayes on UPPMAX
 
-- Last modified: fre jan 15, 2021  02:20
+- Last modified: fre jan 15, 2021  02:24
 - Sign: JN
 
 ## Description
@@ -15,16 +15,16 @@ To access UPPMAX compute resources, see this web page:
 
 ## Steps
 
-1. [Prepare data file on local computer](#prepare-data-file-on-local-computer)
-2. [Prepare command file on local computer](#prepare-command-file-on-local-computer)
-3. [Prepare SLURM script on local computer](#prepare-slurm-script-on-local-computer)
-4. [Transfer files to UPPMAX](#transfer-files-to-uppmax)
-5. [Connect to UPPMAX](#connect-to-uppmax)
-6. [Submit job](#submit-job)
-7. [Check progress](#check-progress)
-8. [Logout](#logout)
-9. [Login later and check progress](#login-later-and-check-progress)
-10. [Transfer files to local computer](#transfer-files-to-local-computer)
+1. [Prepare data file on local computer](#1-prepare-data-file-on-local-computer)
+2. [Prepare command file on local computer](#2-prepare-command-file-on-local-computer)
+3. [Prepare SLURM script on local computer](#3-prepare-slurm-script-on-local-computer)
+4. [Transfer files to UPPMAX](#4-transfer-files-to-uppmax)
+5. [Connect to UPPMAX](#5-connect-to-uppmax)
+6. [Submit job](#6-submit-job)
+7. [Check progress](#7-check-progress)
+8. [Logout](#8-logout)
+9. [Login later and check progress](#9-login-later-and-check-progress)
+10. [Transfer files to local computer](#10-transfer-files-to-local-computer)
 
 ## Details
 
